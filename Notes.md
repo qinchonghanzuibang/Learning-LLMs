@@ -5,7 +5,7 @@
 
 #### What is missing in ML?
 
-AI should be able to learn from just a few examples, like what humans  usually do. However, machine learning failed to do so. Machine learning miss one important part: **reasoning**.
+AI should be able to learn from just a few examples, like what humans usually do. However, machine learning failed to do so. Machine learning miss one important part: **reasoning**.
 
 **Example**: 
 
@@ -30,8 +30,8 @@ Enable easy-to-hard generalization by decomposition
 
 **Examples:** 
 
-Problem: Elsa has 3 apples. Anna has 2 more apples than Elsa. How many  apples do they have together?
-Solution: Anna has 2 more apples than Elsa. So Anna has 2 + 3 = 5 apples.  Anna has 5 apples. Elsa and Anna have 3 + 5 = 8 apples together. The answer is 8.
+Problem: Elsa has 3 apples. Anna has 2 more apples than Elsa. How many apples do they have together?
+Solution: Anna has 2 more apples than Elsa. So Anna has 2 + 3 = 5 apples. Anna has 5 apples. Elsa and Anna have 3 + 5 = 8 apples together. The answer is 8.
 
 Task: [SCAN](https://github.com/brendenlake/SCAN)
 When applying Least-to-Most, the accuracy was 99.7% (standard prompting: 16.7%) with only 0.1% of the demonstration examples.
