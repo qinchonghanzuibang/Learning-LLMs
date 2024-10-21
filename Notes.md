@@ -85,6 +85,7 @@ With that in mind, it would be awesome if we can trigger **step by step** reason
 Always keep in mind that LLMs are probabilistic models of generating next tokens. **They are not humans.**
 
 What LLM does in decoding: $\text{argmax P(reasoning path, final answer | problem)}$ while what we want is actually $\text{argmax P(final answer | problem)}$. These two does not align. Using the idea of **marginal probabilities**, we write: 
+
 $$
 \textbf{argmax } \text{P(final answer | problem)}  =\textbf{argmax } \sum _{\text{reasoning path}}  \text{P(reasoning path, final answer | problem)}
 $$
