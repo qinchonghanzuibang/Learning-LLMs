@@ -179,6 +179,80 @@ It turns out that there are about 10 points drop on solving rates across all fro
 - Self-consistency greatly improves step-by-step reasoning
 - Limitation: irrelevant context, self-correction, premise order
 
+### Lecture 2: LLM agents: brief history and overview
+
+#### What is LLM agents?
+
+Definition of "agent": An "intelligent" system that interacts with some "environment". However, the definition of "intelligent" and "environment" is controversial. 
+
+**Hierarchy** of agents
+
+- Level 1: Text Agent - Uses text action and observation
+- Level 2: LLM Agent - Uses LLM to act
+- Level 3: Reasoning Agent - Uses LLM to reason to act
+
+#### A brief history of LLM agents
+
+Begins from LLM agent(without reasoning), and then evolved to become reasoning agent that has new applications/tasks/benchmarks/methods. 
+
+To simplify, just focus on **Question Answering**.
+
+LLMs require **reasoning**, **knowledge** and **computation.**
+
+**Examples**: 
+
+Q:  Janet’s ducks lay 16 eggs per day. She eats three for breakfast every morning and bakes muffins for her friends every day with four. She sells the remainder for $2 per egg. How much does she make every day?
+
+Q: who is the latest UK PM?
+
+Q: what is the prime factorization of 34324329?
+
+We need **abstraction** to give a simple and unifying solution to all those needs.
+
+**Re**(asoning)**Act**(ing): a new paradigm of agents that reason and act. This paradigm actually goes well beyond Question Answering. 
+
+Let’s only talk about one thing: **long-term memory.** 
+
+**Reflexion**: remember the failure in the past and perform better next time. This improves the performance on coding significantly. This can be used in the sense of reinforcement learning as a reward. 
+
+Questions to think about:
+
+- What distinguishes external environment vs internal environments?
+- What distinguishes long vs short term memory?
+
+**What's beyond questions and games?**
+
+File reports, Code experiments, Explore papers, ... etc
+
+LLMs need good **practical and scalable** tasks/benchmarks to determine whether this is a  good agent or not. If I say that my agent can be 100% accurate over some very stupid tasks with no realistic value, this is useless. 
+
+#### On the future of LLM agents
+
+Five **keyword**: 
+
+- **Training** - How can we train models for agents, where can we have the data
+- **Interface** - How can we build an environment for our agents?
+- **Robustness** - How can we make sure things actually work in real life?
+- **Human** - How can we make sure things actually work with human?
+- **Benchmark** - How can we make benchmarks?
+
+Suggested Reading from [Princeton](https://princeton-nlp.github.io/language-agent-impact/). 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
